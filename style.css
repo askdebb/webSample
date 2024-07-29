@@ -604,7 +604,7 @@ body {
 /* X-Small devices (portrait phones, less than 576px) */
 /* No media query for `xs` since this is the default in Bootstrap */
 
-/* Large devices (desktops, 992px and up) */
+/* Large devices (desktops, 992px and down) */
 @media (max-width: 992px) { 
 
     .nine92-sizes {
@@ -642,7 +642,7 @@ body {
 
 }
 
-/* Medium devices (tablets, 768px and up) */
+/* Medium devices (tablets, 768px and down) */
 @media (max-width: 768px) { 
 
     .welcome-left-container-item, .welcome-right-container-item {
@@ -668,7 +668,30 @@ body {
 
  }
 
-/* Small devices (landscape phones, 576px and up) */
+ @media (max-width: 820px)  {
+    .welcome-right-container-item  {
+        display: block;
+    }
+    .img-right {
+        margin-top: 20px !important;
+        margin-inline: auto !important;
+        height: 500px;
+        margin-left: -100px !important;
+    }
+    .card-container-parent {
+        flex-direction: column !important;
+        justify-content: center;
+        align-items: center;
+        .card {
+            width: 100% !important;
+            margin: 0 auto !important;
+        }
+    }
+
+
+ }
+
+/* Small devices (landscape phones, 576px and down) */
 @media (max-width: 576px) { 
     .welcome-left-container-item {
         margin: 0 auto !important;
@@ -704,4 +727,148 @@ body {
     .text-title {
         text-align: center !important;
     }
+     
 }
+
+
+@media (max-width: 430px) {
+    .work-page-bg {
+        padding: 0 !important;
+    }
+
+    .nine92-sizes {
+        padding: 0 !important;
+    }
+
+    .welcome-left-container-item {
+        margin: 0 !important;
+        text-align: left !important;
+        border: none;
+        background-color: transparent !important;
+    }
+
+    .inner-p-welcome {
+        text-align: left !important;
+     }
+
+    .welcome-right-container-item  {
+        display: block;
+    }
+    .img-right {
+        height: 250px;
+        margin-left: 100px !important;
+    }
+ }
+
+@media (max-width: 424px) {
+
+    .work-page-bg {
+        padding: 0 !important;
+    }
+
+    .nine92-sizes { 
+        padding: 0 !important;
+    }
+    .display-1 {
+        font-size: 1.5rem;
+    }
+
+    .display-6 {
+        font-size: 1rem;
+    }
+
+    .welcome-parent {
+        font-size: 1.8rem !important;
+    }
+
+    .work-page-bg {
+        display: block;
+        width: 100% !important;
+        padding: 0 !important;
+    }
+
+    .welcome-left-container-item
+    /* , .welcome-right-container-item  */
+    {
+        display: block;
+        margin: 0 !important;
+        width: 100% !important;
+        margin-bottom: 5px;
+        /* padding: 0 !important; */
+    }
+
+    .inner-p-welcome { 
+        margin: 0 !important;
+        padding: 0 !important;
+        width: 100% !important;
+        margin-top: -10px !important;
+    }
+
+    .welcome-right-container-item  {
+        display: block;
+    }
+
+    .img-right {
+        height: 270px;
+        margin-left: 70px !important;
+    }
+ }
+
+@media (max-width: 390px) {
+    .display-1 {
+        font-size: 1.5rem;
+    }
+
+    .display-6 {
+        font-size: 1rem;
+    }
+
+    
+    .nine92-sizes { 
+        margin: 0 !important;
+    }
+
+    .welcome-parent {
+        font-size: 1.8rem !important;
+    }
+
+    .work-page-bg {
+        display: block;
+        width: 100% !important;
+        padding: 0 !important;
+    }
+
+    .welcome-left-container-item
+    /* , .welcome-right-container-item  */
+    {
+        display: block;
+        margin: 0 !important;
+        width: 100% !important;
+        margin-bottom: 5px;
+        /* padding: 0 !important; */
+    }
+
+    .inner-p-welcome { 
+        margin: 0 !important;
+        padding: 0 !important;
+        width: 100% !important;
+        margin-top: -10px !important;
+    }
+
+    .welcome-right-container-item  {
+        display: block;
+    }
+
+    .img-right {
+        height: 270px;
+        margin-left: 70px !important;
+    }
+ }
+
+ @media (max-width: 390px) {
+    .img-right {
+        height: 250px;
+        margin-left: 70px !important;
+    }
+ }
+
