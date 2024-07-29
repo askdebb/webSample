@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home | Abizzup</title>
+
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-3.6.1.min.js"
+    integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+
+  <!-- bootstrap css -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+
+  <!--- css -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+  <nav class="navbar navbar-expand-lg nav-container fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img class="abizzup-logo" src="./assets/images/LOGO ABIZZUP_Plan de travail 1 copie.png" alt="abizzup" />
+      </a>
+      <button class="navbar-toggler nav-btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+        aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+            <img class="abizzup-logo" src="./assets/images/LOGO ABIZZUP_Plan de travail 1 copie.png" alt="abizzup" />
+          </h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pt-2 pe-3">
+            <li class="nav-item">
+              <a class="nav-link active mx-lg-2" aria-current="page" href="#">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-lg-2" href="#">ABOUT US</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-lg-2" href="#">BLOG</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-lg-2" href="#">SERVICES</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+
+
+  <!-- hero page -->
+  <section class="hero-page" id="hero-page">
+    <div class="container align-items-center d-flex justify-content-center text-white  flex-column">
+      <h1 class="display-1">Discover Operational Skills Robotics
+        for Africa
+      </h1>
+      <h4 class="display-6">Let's Create the African Technological Giants of Tomorrow
+      </h4>
+      <button class="call-to-action mt-5">Engage us</button>
+    </div>
+
+
+  </section>
+  <!--- work page-->
+  <section class="work-page work-page-bg p-5 w-100vw h-100vh" id="work-page">
+    <h2 class="text-center pt-5 welcome-parent">
+      Welcome to <span class="welcome">Abizzup</span>
+    </h2>
+    <div class="container p-5 d-flex justify-content-between">
+      <div class="welcome-left-container-item w-50 mx-5">
+        <p class="inner-p-welcome">Our corporate creative intelligence platform is revolutionizing African tech
+          development. As an AI and innovative business development company, we actively create the technology giants of
+          tomorrow. Leveraging advanced AI and machine learning, we provide cutting-edge solutions that drive innovation
+          and growth. Our platform offers tailored services, mentorship, and resources to help companies achieve their
+          full potential. Committed to excellence and empowering local talent, we shape the future and foster a thriving
+          tech ecosystem across the continent.</p>
+      </div>
+      <div class="welcome-right-container-item  w-50">
+        <img src="./assets/images/mobile_ui_3i.webp" class="img-right" alt="">
+      </div>
+    </div>
+  </section>
+
+  <section class="work-page-vid w-100vw h-100vh bg-light" id="work-page">
+    <h2 class="text-center pt-5 m-0 slider-welcome-parent">
+      What <span class="work-welcome text-white">We Do</span>
+    </h2>
+
+    <div class="mx-auto my-3 row">
+      <div class="col-8">
+         <!-- Carousel Container -->
+
+      <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./assets/images/hero-images/hero-1.webp" class="d-block w-100 img-slide" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h1 class="display-1">Mobile Application</h1>
+              <p class="services-p">We design and develop intuitive, user-friendly mobile applications tailored to meet
+                your business needs, ensuring seamless functionality on both iOS and Android platforms.</p>
+            </div>
+          </div>
+            <div class="carousel-item">
+              <img src="./assets/images/hero-images/hero-2.webp" class="d-block w-100 img-slide" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h1 class="display-1">Web Application</h1>
+                <p class="services-p">We create dynamic, responsive web applications that deliver exceptional user
+                  experiences, leveraging the latest technologies to meet your business objectives and engage your
+                  audience effectively.</p>
+              </div>
+            </div>
+              <div class="carousel-item">
+                <img src="./assets/images/hero-images/hero-4.webp" class="d-block w-100 img-slide" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h1 class="display-1">Cloud Services</h1>
+                  <p class="services-p">We offer scalable cloud services that enable secure, flexible, and
+                    cost-effective storage, processing, and management of your business data and applications.</p>
+                </div>
+              </div>
+        </div>
+      </div>
+      </div>
+      <div class="col-4">
+          <!-- Text Container -->
+       <div class="text-container">
+        <h3 class="text-title">Our Services</h3>
+        <p class="text-description">Our dedicated team of experts is committed to delivering high-quality solutions tailored to your unique business needs. Whether it's innovative mobile apps, robust web applications, or scalable cloud services, we provide the tools and expertise necessary to drive your business forward.</p>
+        <p class="text-description">With a focus on user experience and cutting-edge technology, we ensure that our solutions not only meet but exceed your expectations. Partner with us to leverage our experience and grow your business in today's digital landscape.</p>
+    </div>
+      </div>
+    </div>
+ 
+  </section>
+
+
+
+
+  <section class="service-work-page w-100vw h-100vh" id="work-page">
+    <div class="video-head">
+      <h2 class="text-center pt-5 welcome-parent text-white">
+        The <span class="welcome">Abizzup</span> Process
+      </h2>
+      <p class="container text-white fs-4 mt-5">
+        To empower African technology companies and improve lives, we provide cutting-edge solutions in mobile
+        applications, desktop applications, web applications, and cloud services. Our innovative platforms ensure fast,
+        reliable performance, prioritizing ease of use and user experience, actively creating the technology giants of
+        tomorrow.
+      </p>
+      <video class="p-5 mb-5 the-vid" src="./assets/video/mobile-video.mp4" autoplay loop muted></video>
+    </div>
+
+  </section>
+  <section class="work-page w-100vw h-100vh" id="work-page">
+    <div class="container p-5 work-container-parent d-flex justify-content-between">
+
+      <div class="work-left-container-item  my-3 ">
+        <div class="card shadow-lg " style="width: 20rem;">
+          <div class="card-body">
+            <h5 class="card-title">Why AI?</h5>
+            <hr>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad aspernatur molestias sit
+              officia vitae similique perspiciatis illum sunt hic incidunt culpa, vel corporis ipsa quasi blanditiis
+              provident! Inventore laudantium dolorem, iste nulla natus praesentium. Iste exercitationem adipisci rem,
+              molestias dolores consequatur voluptatem veritatis accusantium accusamus in recusandae animi qui aliquam?
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="work-left-container-item  my-3 ">
+        <div class="card shadow-lg" style="width: 20rem;">
+          <div class="card-body">
+            <h5 class="card-title">Why AI?</h5>
+            <hr>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad aspernatur molestias sit
+              officia vitae similique perspiciatis illum sunt hic incidunt culpa, vel corporis ipsa quasi blanditiis
+              provident! Inventore laudantium dolorem, iste nulla natus praesentium. Iste exercitationem adipisci rem,
+              molestias dolores consequatur voluptatem veritatis accusantium accusamus in recusandae animi qui aliquam?
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="work-left-container-item  my-3 ">
+        <div class="card shadow-sm" style="width: 20rem;">
+          <div class="card-body">
+            <h5 class="card-title">Why AI?</h5>
+            <hr>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad aspernatur molestias sit
+              officia vitae similique perspiciatis illum sunt hic incidunt culpa, vel corporis ipsa quasi blanditiis
+              provident! Inventore laudantium dolorem, iste nulla natus praesentium. Iste exercitationem adipisci rem,
+              molestias dolores consequatur voluptatem veritatis accusantium accusamus in recusandae animi qui aliquam?
+            </p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <section class="work-page w-100vw h-100vh bg-light" id="work-page">
+    <div class="container p-5 footer-container">
+      <div class="footer-content">
+        <div class="footer-section">
+          <h4>To Stay Connected:</h4>
+          <p><a href="#subscribe">Subscribe our newsletter</a></p>
+        </div>
+        <div class="footer-section">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#privacy-policy">Privacy Policy</a></li>
+            <li><a href="#terms">Terms and Conditions</a></li>
+            <li><a href="#cookie-policy">Cookie Policy</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h4>Site Links</h4>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about-us">About Us</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#blog">Blog</a></li>
+            <li><a href="#services">Services</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h4>Contact Us</h4>
+          <p><strong>Address:</strong> Nukafu Rue GOANI near the Total Jean Paul 2 A station</p>
+          <p><strong>Email:</strong> <a href="erick@abizzup.com">erick@abizzup.com</a></p>
+        </div>
+      </div>
+      <!-- Copyright Section -->
+      <div class="footer-bottom text-center">
+        <p>© Copyright 2024 - <a class="strong-color-a" href="https://abizzup.com"><strong class="strong-color">African Business Up</strong></a> | All Rights Reserved.</p>
+      </div>
+    </div>
+</section>
+
+
+
+  <button class="contact-button"><span class="icon">&#9999;</span></button>
+
+  <div id="contact-modal" class="modal">
+    <div class="modal-content">
+      <span class="close-button">&times;</span>
+      <h2>Contact Us</h2>
+      <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+
+        <button type="submit">Send</button>
+      </form>
+    </div>
+  </div>
+
+  <!-- bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+    integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+    crossorigin="anonymous"></script>
+  <!-- script.js -->
+  <script src="script.js"></script>
+</body>
+
+</html>
