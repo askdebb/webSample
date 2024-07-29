@@ -605,10 +605,103 @@ body {
 /* No media query for `xs` since this is the default in Bootstrap */
 
 /* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) { }
+@media (max-width: 992px) { 
+
+    .nine92-sizes {
+        display: block !important;
+        padding-bottom: 0 !important;
+    }
+
+    .welcome-parent {
+        margin-top: -30px;
+    }
+    .welcome-left-container-item, .welcome-right-container-item {
+        display: block;
+        margin-inline: auto;
+        width: 100% !important;
+        margin-bottom: 5px;
+    }
+
+    .welcome-right-container-item {
+        width: 80% !important;
+        margin: 0 auto !important ;
+    }
+
+   
+    .work-page-vid {
+        width: 100% !important;
+        margin: 0 auto !important;
+        background-color: #F8F9FA !important;
+        margin-bottom: 55px !important;
+    }
+
+    .card-left-container-item, .card-middle-container-item {
+        margin-right: 6px !important;
+    }
+
+
+}
 
 /* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) { ... }
+@media (max-width: 768px) { 
+
+    .welcome-left-container-item, .welcome-right-container-item {
+        display: block;
+        margin-inline: auto;
+        width: 100% !important;
+        margin-bottom: 5px;
+    }
+
+    .welcome-right-container-item {
+        width: 90% !important;
+        margin-left: -55px !important;
+        margin-top: 70px !important;
+        margin-bottom: 0px !important;
+    }
+
+    .card-container-parent {
+        padding: 0px !important;
+        .card {
+            width: 15rem !important;
+        }
+    }
+
+ }
 
 /* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) { ... }
+@media (max-width: 576px) { 
+    .welcome-left-container-item {
+        margin: 0 auto !important;
+        box-shadow: none !important;
+        border-radius: 10px;
+    }
+
+    .welcome-right-container-item {
+        margin-right: 50px !important;
+    }
+
+    .img-right {
+        height: 400px;   
+    }
+
+    .slider-welcome-parent {
+        padding: 5px 0px !important;
+    }
+
+    .card-container-parent {
+        flex-direction: column !important;
+        justify-content: center;
+        align-items: center;
+        .card {
+            width: 90% !important;
+            margin: 0 auto !important;
+        }
+    }
+    .text-cont > div{
+        margin: 10px !important;
+    }
+
+    .text-title {
+        text-align: center !important;
+    }
+}
