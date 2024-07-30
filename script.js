@@ -40,7 +40,19 @@ document.addEventListener("DOMContentLoaded", () => {
       modal.style.display = "none";
     }
   });
+
+  const navbar = document.querySelector(".navbar");
+
+  window.addEventListener("scroll", function() {
+      if (window.scrollY > 50) { // Adjust the scroll threshold as needed
+          navbar.classList.remove("transparent");
+      } else {
+          navbar.classList.add("transparent");
+      }
+  });
 });
+
+
 
 $(document).ready(function () {
   $(window).view(function () {
@@ -53,13 +65,14 @@ $(document).ready(function () {
   });
 });
 
-window.addEventListener('scroll', () => {
-    const navbar = document.querySelector('.navbar');
-    if (window.scrollY > 50) { // Adjust the scroll threshold as needed
-        navbar.classList.add('scrolled');
-    } else {
-        navbar.classList.remove('scrolled');
-    }
+window.addEventListener("scroll", () => {
+  const navbar = document.querySelector(".navbar");
+  if (window.scrollY > 50) {
+    // Adjust the scroll threshold as needed
+    navbar.classList.add("scrolled");
+  } else {
+    navbar.classList.remove("scrolled");
+  }
 });
 
 document.addEventListener("mousemove", (event) => {
