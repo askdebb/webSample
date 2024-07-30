@@ -92,8 +92,9 @@ body {
 
 .nav-link:hover,
 .nav-link.active {
-    color: #0A4725; /* Highlight color for active and hovered links */
+    color: #94C023 !important; /* Highlight color for active and hovered links */
 }
+
 
 @media (min-width: 991px) {
     .nav-link::before {
@@ -112,6 +113,7 @@ body {
     .nav-link.active::before {
         width: 100%; /* Full width on hover or when active */
         visibility: visible; /* Make it visible */
+        background-color: #94C023; 
     }
 }
 
