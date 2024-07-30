@@ -45,17 +45,20 @@ body {
 
 .nav-btn {
     position: relative; /* Adjust positioning */
+    /* background-color: #94C023 !important; */
 }
 
 .navbar-toggler {
     border: none;
     font-size: 1.25rem !important;
+    background-color: #94C023 !important;
 }
 
 .navbar-toggler:focus,
 .btn-close:focus {
     box-shadow: none;
     outline: none;
+    color: #94C023 !important;
 }
 
 /* Offcanvas styling */
