@@ -45,25 +45,30 @@ body {
 
 .nav-btn {
     position: relative; /* Adjust positioning */
-    /* background-color: #94C023 !important; */
+}
+
+/* Transparent navbar */
+.navbar.transparent .navbar-toggler-icon {
+    background-image: url('data:image/svg+xml,%3csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30"%3e%3cpath stroke="white" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"/%3e%3c/svg%3e');
 }
 
 .navbar-toggler {
     border: none;
     font-size: 1.25rem !important;
-    background-color: #94C023 !important;
 }
 
 .navbar-toggler:focus,
 .btn-close:focus {
     box-shadow: none;
     outline: none;
-    color: #94C023 !important;
 }
 
+.navbar.transparent .navbar-toggler-icon {
+    background-image: url('data:image/svg+xml,%3csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30"%3e%3cpath stroke="white" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"/%3e%3c/svg%3e');
+}
 /* Offcanvas styling */
 .offcanvas {
-    background-color: #73fc9c; /* Dark background for better text visibility */
+    background-color: #066323; /* Dark background for better text visibility */
     color: #fff; /* Light text color */
 }
 
@@ -83,7 +88,6 @@ body {
     height: 50px; /* Adjust logo size */
 }
 
-
 /* Nav links */
 .nav-link {
     color: #666777;
@@ -97,7 +101,6 @@ body {
 .nav-link.active {
     color: #94C023 !important; /* Highlight color for active and hovered links */
 }
-
 
 @media (min-width: 991px) {
     .nav-link::before {
@@ -126,6 +129,7 @@ body {
         padding-top: 80px; /* Adjust padding if needed */
     }
 }
+
 
 /* Hero Section Styles */
 .hero-page {
