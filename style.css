@@ -133,7 +133,7 @@ body {
 
 .hero-page::after {
     padding-top: 5rem;
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: #00000099;
     content: "";
     position: absolute;
     top: 0;
@@ -330,37 +330,54 @@ body {
   }
 
 
-
-
-
 /* Carousel Image Styling */
-/* Carousel Section Styling */
 .work-page-vid {
     position: relative;
-    /* Light background for the section */
     padding: 0;
 }
 
 .slider-welcome-parent {
     background-color: #94C023; /* Light green background for header */
-    /* White text */
-    padding: 20px 0; /* Padding around header text */
-    text-align: center; /* Centered text */
-    margin-bottom: 20px; /* Space below header */
-}
-
-/* Container for carousel and text */
-
-
-/* Carousel styling */
-.carousel-container {
-    flex: 1;
+    padding: 20px 0;
+    text-align: center;
+    margin-bottom: 20px;
 }
 
 .img-slide {
     height: 65vh; /* Adjust the height as needed */
     object-fit: cover;
-    filter: brightness(0.8);
+}
+
+/* Overlay Styling */
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #00000099; /* Semi-transparent black overlay */
+    z-index: 1; /* Ensure overlay is above the image but below the text */
+}
+
+.carousel-caption{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2; /* Ensure text is above the overlay */
+    text-align: center;
+    color: #fff; /* White text color for better visibility */
+    width: 80%; /* Make the caption text wider */
+}
+
+.carousel-caption h1,
+.carousel-caption p {
+    color: #fff; /* White text color for better visibility */
+}
+
+
+.carousel-caption .services-p {
+    width: 80%; /* Set the width to 80% */
 }
 
 /* Text Container Styling */
@@ -381,19 +398,16 @@ body {
     line-height: 1.5;
 }
 
-
-
-
-/* Carousel Indicators Styling */
-
-
 .services-p {
-    font-size: 1.5rem;
+    margin-top: 15px !important;
+    font-size: 1.2rem;
 }
+
 .service-work-page {
     background-color: #627659;
-    /* background-color: #C2E4B4; */
 }
+
+
 
 .the-vid {
      top: 0;

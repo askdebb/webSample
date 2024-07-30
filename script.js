@@ -51,8 +51,6 @@ $(document).ready(function () {
       $(".offcanvas-body > ul").addClass(".nav-ul");
     }
   });
-
-  
 });
 
 window.addEventListener('scroll', () => {
