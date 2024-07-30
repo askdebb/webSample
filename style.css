@@ -391,7 +391,7 @@ body {
     font-size: 1.5rem;
 }
 .service-work-page {
-    background-color: #617259;
+    background-color: #627659;
     /* background-color: #C2E4B4; */
 }
 
@@ -516,8 +516,12 @@ body {
     background-color: #218838;
   }
 
+  .work-page-footer {
+    background-color: #D0D8E3 !important;
+  }
+
   .footer-container {
-    background-color: #f8f9fa;
+    background-color: #D0D8E3;
     color: #6c757d;
     padding: 20px;
 }
